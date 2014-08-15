@@ -1,21 +1,23 @@
 #!/usr/bin/env ruby
 
 class Hamming
-  attr_reader :source, :dest
+  attr_reader :s1, :s2
 
-  def self.compute(source, dest)
+  def self.compute(s1, s2)
     @count = 0
-    @source = source
-    @dest = dest
+    @s1 = s1
+    @s2 = s2
 
-    if @source.length < @dest.length
-      @lesser_length = @source.length
+    @s1.length < @s2.length ? @shorter = @s1.length : @shorter = @s2.length
+
+    if @s1.length < @s2.length
+      @shorter = @s1.length
     else
-      @lesser_length = @dest.length
+      @shorter = @s2.length
     end
 
-    0.upto(@lesser_length-1) do |x|
-      if @source[x] != @dest[x]
+    0.upto(@shorter-1) do |x|
+      if @s1[x] != @s2[x]
         @count = @count + 1
       end
     end
