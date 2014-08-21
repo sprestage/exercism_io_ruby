@@ -10,8 +10,6 @@ class Gigasecond
     @giga_days = GIGASECOND / ONE_DAY
 
     @giga_anniversary = @giga_anniversary + @giga_days
-
-    return @giga_anniversary
   end
 end
 
