@@ -10,9 +10,6 @@ class Fixnum
     tens = (number / 10) % 10
     units = number % 10
 
-    # C => 100
-    # D => 500
-    # M => 1000
     if thousands
       case thousands
       when 1..3
@@ -22,6 +19,9 @@ class Fixnum
       end
     end
 
+    # C => 100
+    # D => 500
+    # M => 1000
     if hundreds
       case hundreds
       when 1..3
