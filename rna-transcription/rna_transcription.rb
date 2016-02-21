@@ -7,9 +7,16 @@ class Complement
   @rna_complement['T'] = 'A'
   @rna_complement['A'] = 'U'
 
+  VERSION = 3
+
   def self.of_dna(dna_strand)
     @dna = dna_strand
     @rna_strand = ""
+
+    regex = /^[GCTA]+$/
+    unless !@dna[regex].nil?
+      raise ArgumentError
+    end
 
     0.upto(@dna.length - 1) do |n|
       nucleotide = @dna[n]
