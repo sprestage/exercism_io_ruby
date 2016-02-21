@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 
 class Prime
-  attr_reader :n
-
   def is_prime(number)
     if number == 1
       return true
