@@ -48,4 +48,5 @@ This is a classic toy problem, but we were reminded of it by seeing it in the Go
 
 
 ## Susan's solution and observations
+
 This solution used a hash to keep track of each unique word in a string.  Ruby's String.slice was used to strip unneeded outer quotations, while leaving the single quote needed for contractions in place.  A small bit of REGEX was used to strip unneeded punctuation.  Strings using comma delimited lists will have the commas replaced with spaces so the String.split command will also work for compressed lists.
