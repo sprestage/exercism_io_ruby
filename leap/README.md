@@ -53,9 +53,11 @@ run it like this:
     ./hello_world_test.rb
 
 
-## Susan's solution and observations
-This solution became much easier when I realized that doing it backwards was MUCH simpler.  It removes the need for the unless and exception logic.
-
 ## Source
 
 JavaRanch Cattle Drive, exercise 3 [view source](http://www.javaranch.com/leap.jsp)
+
+
+## Susan's solution and observations
+
+This solution became much easier when I realized that doing it backwards was MUCH simpler.  It removes the need for the unless and exception logic.

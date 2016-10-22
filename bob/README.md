@@ -65,4 +65,5 @@ Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutoria
 
 
 ## Susan's solution and observations
+
 This was pretty straightforward, though I did have to separate out checking for just a space character vs other sorts of whitespace such as /\t or /\n.  I think it would be interesting to get the REGEX to combine both of these.  But my short answer does not yet have that solution.

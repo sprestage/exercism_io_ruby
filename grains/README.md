@@ -56,10 +56,11 @@ run it like this:
     ./hello_world_test.rb
 
 
-## Susan's solution and observations
-Ruby is already optimized behind the scenes, so while a bitwise operation should be significantly faster than doing a power, these take about the same time in Ruby.  I used the unix 'time' command to time both implementations.  I even changed from 64 to 640 chessboard squares, but the time didn't vary much any any combination.
-
-
 ## Source
 
 JavaRanch Cattle Drive, exercise 6 [view source](http://www.javaranch.com/grains.jsp)
+
+
+## Susan's solution and observations
+
+Ruby is already optimized behind the scenes, so while a bitwise operation should be significantly faster than doing a power, these take about the same time in Ruby.  I used the unix 'time' command to time both implementations.  I even changed from 64 to 640 chessboard squares, but the time didn't vary much any any combination.

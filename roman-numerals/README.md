@@ -48,8 +48,7 @@ See also: http://www.novaroma.org/via_romana/numbers.html
 The Roman Numeral Kata [view source](http://codingdojo.org/cgi-bin/wiki.pl?KataRomanNumerals)
 
 
----
-Susan's notes:
+## Susan's notes:
 
 I => 1
 II => 2
@@ -70,7 +69,7 @@ D => 500
 M => 1000
 
 number = self
-M = number div 1000 
+M = number div 1000
 D = (number - M) div 500
 C = (number - M - D) div 100
 L = (number - M - D - C) div 50
@@ -82,12 +81,8 @@ M.times do
   roman_numeral = roman_numeral + "M"
 end
 
-roman_numeral = roman_numeral + "D" if D == 1 
+roman_numeral = roman_numeral + "D" if D == 1
 
 if C < 4
-  
+
 end
-
-
-
-
