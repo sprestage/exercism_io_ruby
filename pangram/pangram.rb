@@ -13,7 +13,11 @@ class Pangram
         return false
       end
     end
-    
+
     return true
   end
+end
+
+module BookKeeping
+  VERSION = 2 # Where the version number matches the one in the test.
 end
