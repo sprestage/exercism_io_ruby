@@ -8,7 +8,7 @@ Using Exercism CLI
 (from the cli.exercism.io website, for my use)
 
 
-#####Downloading Exercises
+##### Downloading Exercises
 
 You download exercises with the fetch command.
 
@@ -18,7 +18,7 @@ You download exercises with the fetch command.
 
 The first time you run the command, it will download the first exercise in each language. After that, it will download any exercises that you are currently working on, plus the next available exercise that you have not yet submitted any code to.
 
-#####Submitting Exercises
+##### Submitting Exercises
 
 To submit an exercise, use the submit command.
 
